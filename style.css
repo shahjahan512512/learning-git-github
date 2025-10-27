@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    background: #d1d1d1;
+    display: flex;
+}
+
+.tab-area {
+    width: 50%;
+    border: 2jpx solid red;
+    margin: auto;
+    padding: 20px;
+}
+
+.tab-area .tab-btn {
+    margin-bottom: 20px;
+}
+
+.tab-area .tab-btn button{
+    background-color: #f1f1f1f1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.tab-area .tab-btn button:hover {
+    background-color: #000;
+    color: #ffff;
+}
